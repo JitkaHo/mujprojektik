@@ -1,3 +1,132 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto;
+  color: #555;
+  background-color: #f5f5f5;
+}
+
 h1 {
-  color: red;
+  color: #f5f5f5;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-align: center;
+  font-size: 5rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 6rem;
+}
+
+section {
+  margin: 0 20%;
+}
+
+section {
+  border-bottom: 3px solid #efd9b3;
+}
+
+.Kontakty {
+  border-bottom: 0;
+}
+h3 {
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+h2 {
+  text-align: center;
+  color: #394e6c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*Hlavička*/
+header {
+  background-color: #394e6c;
+  padding: 10px;
+  text-align: center;
+}
+
+header p {
+  font-style: italic;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: bisque;
+}
+.Jitka {
+  width: 200px;
+  border-radius: 50%;
+  border-color: aliceblue;
+  margin: 10px 50px;
+  float: left;
+  border: 2px solid #394e6c;
+}
+
+/*Menu*/
+nav {
+  background-color: #efd9b3;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 25px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color: #394e6c;
+  color: #efd9b3;
+}
+
+/*Pracovní zkušenosti*/
+
+.pozice {
+  text-transform: uppercase;
+  color: #394e6c;
+  font-weight: 500;
+  margin: 0;
+}
+
+.date {
+  font-style: italic;
+  font-weight: 500;
+  margin: 0;
+}
+
+.napln {
+  font-weight: bold;
+}
+
+ul {
+  margin-top: 0;
+  list-style-type: circle;
+}
+
+/*Jazyky a další dovednosti*/
+th,
+td {
+  padding: 10px 30px 10px 0;
+  text-align: left;
+}
+
+/*Kontakt*/
+.odkazy {
+  display: flex;
+  justify-content: space-around;
+}
+/*Patička*/
+footer {
+  text-align: center;
+  background-color: #394e6c;
+  padding: 1rem 0;
+  color: #efd9b3;
+  font-style: italic;
+  font-weight: 400;
 }

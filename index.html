@@ -6,18 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Životopis Jitka Horníková</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,100&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
   <!--Hlavička stránky-->
   <header>
-    <img src="obrazky/Jitka-Hornikova.jpg" alt="Jitka">
     <h1>Jitka Horníková</h1>
     <p>Profil Czechity</p>
   </header>
 
+  <!--Menu-->
+  <nav>
+    <li>
+      <a href= #Profil> Profil</a>
+    </li>
+    <li>
+     <a href= #Zkušenosti> Pracovní zkušenosti</a>
+    </li>
+    <li>
+      <a href= #Dovednosti> Další dovednosti </a>
+    </li>
+    <li>
+      <a href= #Vzdělání> Vzdělání </a>
+    </li>
+    <li>
+      <a href= #Kontakt> Kontakt </a>
+    </li>
+  </nav>
+
  <!--Profil s fotkou-->
-  <section class="Profil"> 
+  <section class="Profil" id="Profil"> 
+    <img class="Jitka" src="obrazky/Jitka-Hornikova - kopie.jpg" alt="Jitka">
+
   <p>Ahoj,<br>
     jmenuji se Jitka Horníková. Těším se na dlouhodobý kurz s Czechitas na nové znalosti a dovednosti a super partu. Snad všechno zvládnu a využiji jej na maximum.<br>
     <h3>Něco o mně</h3>
@@ -26,12 +48,19 @@
   </section>
 
   <!--Pracovní zkušenosti-->
-  <section class="Pracovní zkušenosti">
+  <section class="Pracovní zkušenosti" id="Zkušenosti">
     <h2>Pracovní zkušenosti</h2>
-    <p>
-      7/2019 – do současnosti Unicorn <br>
-      Pozice: Jira konzultant <br>
-   <ul class="náplň"> Náplň činnosti 
+<p>
+    <p class="pozice">
+      Pozice: Jira konzultant
+    </p>
+    <p class="date">
+      Unicorn: 7/2019 – do současnosti  
+    </p>
+    <p class="napln">
+      Náplň činnosti: 
+     </p>
+   <ul> 
     <li> 
       Řešení na míru pro klienty s využitím Atlassian nástrojů: Jira jako e-mailový nástroj, Jira jako nástroj pro hlášení a řešení incidentů z obchodních jednotek
     </li>
@@ -47,9 +76,17 @@
   </ul>
 </p>
 <p>
-9/2013 - 7/2019 REDUCCIA s. r. o. – NATURHOUSE (Odborníci na zdravé hubnutí) <br>
-Pozice: Marketing manager <br>
-<ul>Náplň činnosti: 
+  <p class="pozice">
+  Pozice: Marketing manager
+</p>
+<p class="date">
+  REDUCCIA s. r. o. – NATURHOUSE (Odborníci na zdravé hubnutí): 9/2013 - 7/2019 
+</p>
+
+<p class="napln">
+  Náplň činnosti: 
+</p>
+<ul>
   <li>
     Projektový management vývoje online aplikace pro výživové poradce NATURHOUSE, který využívá nyní 135 poboček v ČR a SR
   </li>
@@ -68,7 +105,7 @@ Koordinace přípravy nových webů pro získávání kontaktů na potencionáln
   </section>
 
   <!--Dovednosti-->
-  <section class="Dovednosti">
+  <section class="Dovednosti" id="Dovednosti">
   <h2>Jazykové znalosti a dovednosti</h2>
   <h3>Jazykové znalosti</h3>
   <table>
@@ -93,22 +130,28 @@ Koordinace přípravy nových webů pro získávání kontaktů na potencionáln
   </section>
 
   <!--Vzdělání-->
-  <section class="Vzdělání">
+  <section class="Vzdělání" id="Vzdělání">
   <h2>Vzdělání</h2>
-  9/2009 – 6/2015 VŠE, Fakulta mezinárodních vztahů <br>
-Magisterský studijní program – zakončeno titulem Ing. <br>
-Hlavní specializace – Právo a podnikání <br>
-Vedlejší specializace – Komerční komunikace <br>
+  <p class="pozice">  
+     Magisterský studijní program – zakončeno titulem Ing.
+  </p>
+  <p class="date">
+  VŠE, Fakulta mezinárodních vztahů: 9/2009 – 6/2015
+  </p>
+  <ul>
+    <li>Hlavní specializace – Právo a podnikání</li>
+    <li>Vedlejší specializace – Komerční komunikace</li>
+</ul>
   </section>
 
 
 
   <!--Kontakt-->
-  <section class="Kontakty">
+  <section class="Kontakty" id="Kontakt">
   <h2>Moje kontakty</h2>
-      <p>
-        Email: <a href="mailto:jitka.hampejsova@gmail.com">Můj email</a><br>
-        LinkedIn:  <a href="https://www.linkedin.com/in/jitka-hampejsov%C3%A1-014/">LinkedIn</a>
+      <p class="odkazy">
+        <a href="mailto:jitka.hampejsova@gmail.com">Můj email</a>
+        <a href="https://www.linkedin.com/in/jitka-hampejsov%C3%A1-014/">LinkedIn</a>
       </p>
    </section>
   <!-- Patička stránky -->
