@@ -68,7 +68,6 @@ header p {
 nav {
   background-color: #efd9b3;
   text-align: center;
-  color: #555;
 }
 
 nav li {
@@ -79,6 +78,7 @@ nav a {
   text-decoration: none;
   padding: 10px 25px;
   display: inline-block;
+  color: #555;
 }
 
 a:hover {
